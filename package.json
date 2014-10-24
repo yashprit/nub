@@ -1,0 +1,40 @@
+{
+  "name": "nub",
+  "version": "0.0.0",
+  "description": "One stop solution for all GitHub Gist create, publish, edit, share with your team, Share Socially",
+  "main": "./lib/hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yashprit/nub.git"
+  },
+  "keywords": [
+    "gist",
+    "github",
+    "management",
+    "cli",
+    "share",
+    "create",
+    "edit",
+    "socially"
+  ],
+  "author": "Yashprit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashprit/nub/issues"
+  },
+  "homepage": "https://github.com/yashprit/nub",
+  "dependencies": {
+    "prompt": "^0.2.14",
+    "github": "^0.2.2",
+    "github-api": "^0.7.0",
+    "bluebird": "^2.3.6",
+    "request": "^2.46.0"
+  }
+}
